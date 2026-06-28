@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
-import { meshBounds } from "@react-three/drei";
 
 const RotatingBox = () => {
   const boxRef = useRef();

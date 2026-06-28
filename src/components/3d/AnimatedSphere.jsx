@@ -15,8 +15,8 @@ const AnimatedSphere = () => {
 
   return (
     <mesh ref={sphereRef}>
-      <Icosahedron args={[1.5, 4]} />
-      <meshPhongMaterial
+      <icosahedronGeometry args={[1.5, 4]} />
+      <meshStandardMaterial
         color="#00ff88"
         wireframe={true}
         emissive="#00ff88"

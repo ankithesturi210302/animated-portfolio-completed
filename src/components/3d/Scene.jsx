@@ -1,5 +1,5 @@
 import { Canvas } from "@react-three/fiber";
-import { PerspectiveCamera, OrbitControls, Stars } from "@react-three/drei";
+import { PerspectiveCamera, OrbitControls } from "@react-three/drei";
 import RotatingBox from "./RotatingBox";
 import FloatingParticles from "./FloatingParticles";
 
