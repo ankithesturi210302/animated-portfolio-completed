@@ -16,10 +16,11 @@ const ServiceScene = ({ height = 400 }) => {
       style={{
         width: "100%",
         height: `${height}px`,
-        background: "transparent",
       }}
+      gl={{ antialias: true, alpha: true }}
     >
-      <PerspectiveCamera position={[0, 0, 8]} fov={50} />
+      <color attach="background" args={["#0c0c1d"]} />
+      <PerspectiveCamera makeDefault position={[0, 0, 8]} fov={50} />
       <ambientLight intensity={0.7} />
       <pointLight position={[5, 10, 5]} intensity={1.5} />
       <pointLight position={[-5, -10, 5]} intensity={0.8} color="#00d4ff" />

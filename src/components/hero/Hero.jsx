@@ -1,8 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
-import { Suspense, lazy } from "react";
-
-const Scene = lazy(() => import("../3d/Scene"));
+import Scene from "../3d/Scene";
 
 const textVariants = {
   initial: {
@@ -77,9 +75,7 @@ const Hero = () => {
         Aerospace • Agentic AI • Advanced Air Mobility • Systems Architecture
       </motion.div>
       <div className="canvasContainer">
-        <Suspense fallback={<div className="imageContainer"><img src="/hero.png" alt="" /></div>}>
-          <Scene height={500} />
-        </Suspense>
+        <Scene height={500} />
       </div>
     </div>
   );

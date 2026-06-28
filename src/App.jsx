@@ -7,10 +7,12 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 const App = () => {
   return (
-    <div>
+    <ErrorBoundary>
+      <div>
       <Cursor />
       <section id="Homepage">
         <Navbar />
@@ -32,7 +34,8 @@ const App = () => {
       {/* Framer Motion Crash Course */}
       {/* <Test/>
     <Test/> */}
-    </div>
+      </div>
+    </ErrorBoundary>
   );
 };
 

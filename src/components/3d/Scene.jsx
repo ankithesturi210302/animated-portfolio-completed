@@ -9,17 +9,18 @@ const Scene = ({ height = 500 }) => {
       style={{
         width: "100%",
         height: `${height}px`,
-        background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
       }}
+      gl={{ antialias: true, alpha: true }}
     >
-      <PerspectiveCamera position={[0, 0, 5]} fov={75} />
+      <color attach="background" args={["#1a1a2e"]} />
+      <PerspectiveCamera makeDefault position={[0, 0, 5]} fov={75} />
       <ambientLight intensity={0.6} />
       <pointLight position={[10, 10, 10]} intensity={1} />
       <pointLight position={[-10, -10, -10]} intensity={0.5} color="#00d4ff" />
-      
+
       <RotatingBox />
       <FloatingParticles />
-      
+
       <OrbitControls
         autoRotate
         autoRotateSpeed={4}
