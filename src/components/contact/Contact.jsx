@@ -62,8 +62,11 @@ const Contact = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>door non.712 sadashiva badavanie </span>
-           <span> chikkabullapur road gauribidnur -561208</span>
+          <span>Rajankunte, Bengaluru, India</span>
+        </motion.div>
+        <motion.div className="item" variants={variants}>
+          <h2>LinkedIn</h2>
+          <span>linkedin.com/in/ankith-esturi-473020194</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>

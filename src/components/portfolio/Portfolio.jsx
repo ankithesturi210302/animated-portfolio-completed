@@ -5,27 +5,27 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "React Commerce",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Autonomous Test Supervisor",
+    img: "https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    desc: "Multi-agent AI system for eVTOL testing facilities. Built with Python, FastAPI, Docker, and LangChain reasoning loops. A Compliance Agent queries vectorized aviation regulations via RAG while a Telemetry Agent monitors live sensor feeds. Achieved 80% reduction in oversight latency through autonomous decision-making.",
   },
   {
     id: 2,
-    title: "Next.js Blog",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Forecorners Private Limited",
+    img: "https://images.pexels.com/photos/3584994/pexels-photo-3584994.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    desc: "CEO & Managing Director overseeing Advanced Air Mobility infrastructure. Secured 13,000 sq. meters at Jakkur Aerodrome, orchestrated government consultations for AAM framework authorization, and established strategic MOU with Indian Institute of Science for collaborative research in urban air mobility.",
   },
   {
     id: 3,
-    title: "Vanilla JS App",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "ISRO Chandrayaan-3 Mission",
+    img: "https://images.pexels.com/photos/8729472/pexels-photo-8729472.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    desc: "Researcher on mission-critical telemetry and command network for India's lunar program. Focused on data reliability, real-time anomaly detection rooted in ISRO-standard data structures, and secure public project telemetry management.",
   },
   {
     id: 4,
-    title: "Music App",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Flight Path Optimization",
+    img: "https://images.pexels.com/photos/3802506/pexels-photo-3802506.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    desc: "Applied Dijkstra's algorithm variants to simulate urban air mobility flight paths. Manages vertiport congestion and battery thermal management optimization. Includes secure cryptographic handshake for ground-to-air communication preventing MITM attacks on aerospace command signals.",
   },
 ];
 

@@ -36,8 +36,8 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          Founder of Forecorners • Innovation in Urban Mobility
-          <br /> Flying Taxi Testing & Vertiport Consultation
+          CEO at Forecorners Private Limited • Expert in Aerospace Systems
+          <br /> Advanced Air Mobility Infrastructure & Agentic AI Architecture
         </p>
         <hr />
       </motion.div>
@@ -45,14 +45,14 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{color:"orange"}}>Strategic</motion.b> Excellence
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{color:"orange"}}>In Complex</motion.b> Systems.
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>EXPERTISE</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,41 +60,41 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Flying Taxi Testing</h2>
+          <h2>Agentic AI Architecture</h2>
           <p>
-            Comprehensive testing and validation of flying taxi technologies, ensuring safety, performance, and regulatory compliance for urban air mobility solutions.
+            Multi-agent AI systems using LangChain, LangGraph, and LLMs. Built autonomous test supervisors for eVTOL facilities automating safety protocols and telemetry monitoring with 80% latency reduction.
           </p>
-          <button>Go</button>
+          <button>Learn More</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Vertiport Consultation</h2>
+          <h2>AAM Infrastructure</h2>
           <p>
-            Expert consultation on vertiport design, infrastructure planning, and operational protocols for seamless integration of vertical takeoff and landing facilities.
+            Advanced Air Mobility expertise: secured 13,000 sq. meters at Jakkur Aerodrome, led government consultations for AAM framework authorization, and strategic alliance with Indian Institute of Science for urban mobility research.
           </p>
-          <button>Go</button>
+          <button>Learn More</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Web Development</h2>
+          <h2>Aerospace Systems</h2>
           <p>
-            Custom web solutions for aviation and mobility platforms, specializing in real-time data visualization, booking systems, and operational dashboards.
+            ISRO researcher on Chandrayaan-3 telemetry and command networks. Expert in real-time anomaly detection, secure ground-to-air communication, and cryptographic protocols for mission-critical aerospace operations.
           </p>
-          <button>Go</button>
+          <button>Learn More</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Innovation Consulting</h2>
+          <h2>Systems & Strategy</h2>
           <p>
-            Strategic guidance on emerging technologies, urban air mobility trends, and business development for next-generation transportation solutions.
+            Systems architect with experience in graph optimization for flight path planning, international trade management, and regulatory navigation. 400+ LeetCode problems in graph theory and dynamic programming.
           </p>
-          <button>Go</button>
+          <button>Learn More</button>
         </motion.div>
       </motion.div>
     </motion.div>
