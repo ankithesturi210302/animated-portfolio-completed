@@ -80,6 +80,26 @@
     }
   }
 
+  .canvasContainer {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+
+    @include mobile {
+      height: 50%;
+      width: 100%;
+      top: unset;
+      bottom: 0;
+    }
+
+    canvas {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+
   .slidingTextContainer {
     position: absolute;
     font-size: 50vh;

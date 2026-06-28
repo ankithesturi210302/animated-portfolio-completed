@@ -95,6 +95,22 @@
       }
     }
   }
+
+  .canvasWrapper {
+    flex: 1.5;
+    width: 100%;
+    margin: 40px 0;
+
+    @include mobile {
+      height: 300px;
+      margin: 20px 0;
+    }
+
+    canvas {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
   .listContainer {
     flex: 2;
     display: flex;

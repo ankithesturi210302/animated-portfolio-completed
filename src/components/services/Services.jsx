@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
+import ServiceScene from "../3d/ServiceScene";
 
 const variants = {
   initial: {
@@ -36,8 +37,8 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          CEO at Forecorners Private Limited • Expert in Aerospace Systems
+          <br /> Advanced Air Mobility Infrastructure & Agentic AI Architecture
         </p>
         <hr />
       </motion.div>
@@ -45,68 +46,59 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{color:"orange"}}>Strategic</motion.b> Excellence
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{color:"orange"}}>In Complex</motion.b> Systems.
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>EXPERTISE</button>
         </div>
       </motion.div>
+      <div className="canvasWrapper">
+        <ServiceScene height={400} />
+      </div>
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Agentic AI Architecture</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Multi-agent AI systems using LangChain, LangGraph, and LLMs. Built autonomous test supervisors for eVTOL facilities automating safety protocols and telemetry monitoring with 80% latency reduction.
           </p>
-          <button>Go</button>
+          <button>Learn More</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>AAM Infrastructure</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Advanced Air Mobility expertise: secured 13,000 sq. meters at Jakkur Aerodrome, led government consultations for AAM framework authorization, and strategic alliance with Indian Institute of Science for urban mobility research.
           </p>
-          <button>Go</button>
+          <button>Learn More</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Aerospace Systems</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            ISRO researcher on Chandrayaan-3 telemetry and command networks. Expert in real-time anomaly detection, secure ground-to-air communication, and cryptographic protocols for mission-critical aerospace operations.
           </p>
-          <button>Go</button>
+          <button>Learn More</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Systems & Strategy</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Systems architect with experience in graph optimization for flight path planning, international trade management, and regulatory navigation. 400+ LeetCode problems in graph theory and dynamic programming.
           </p>
-          <button>Go</button>
+          <button>Learn More</button>
         </motion.div>
       </motion.div>
     </motion.div>
