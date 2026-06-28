@@ -36,8 +36,8 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          Founder of Forecorners • Innovation in Urban Mobility
+          <br /> Flying Taxi Testing & Vertiport Consultation
         </p>
         <hr />
       </motion.div>
@@ -60,12 +60,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Flying Taxi Testing</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Comprehensive testing and validation of flying taxi technologies, ensuring safety, performance, and regulatory compliance for urban air mobility solutions.
           </p>
           <button>Go</button>
         </motion.div>
@@ -73,12 +70,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Vertiport Consultation</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Expert consultation on vertiport design, infrastructure planning, and operational protocols for seamless integration of vertical takeoff and landing facilities.
           </p>
           <button>Go</button>
         </motion.div>
@@ -86,12 +80,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Web Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Custom web solutions for aviation and mobility platforms, specializing in real-time data visualization, booking systems, and operational dashboards.
           </p>
           <button>Go</button>
         </motion.div>
@@ -99,12 +90,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Innovation Consulting</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Strategic guidance on emerging technologies, urban air mobility trends, and business development for next-generation transportation solutions.
           </p>
           <button>Go</button>
         </motion.div>
