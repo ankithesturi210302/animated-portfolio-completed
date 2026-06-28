@@ -1,6 +1,8 @@
-import { useRef } from "react";
+import { useRef, Suspense, lazy } from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
+
+const ServiceScene = lazy(() => import("../3d/ServiceScene"));
 
 const variants = {
   initial: {
@@ -55,6 +57,11 @@ const Services = () => {
           <button>EXPERTISE</button>
         </div>
       </motion.div>
+      <div className="canvasWrapper">
+        <Suspense fallback={<div>Loading...</div>}>
+          <ServiceScene height={400} />
+        </Suspense>
+      </div>
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
